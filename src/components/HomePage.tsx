@@ -108,7 +108,7 @@ const HomePage = () => {
           {/* Veg Pickles */}
           <Link href="/shop?category=Veg%20Pickles" className="group block rounded-2xl shadow-xl bg-white hover:shadow-2xl transition overflow-hidden border-2 border-[#e0b07a]/30 hover:border-[#e0b07a]">
             <div className="relative w-full h-48">
-              <Image src="/product images/allImages/Lemon-Pickle.jpg" alt="Veg Pickles" fill className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300" />
+              <Image src="/product-images/allImages/Lemon-Pickle.jpg" alt="Veg Pickles" fill className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300" />
             </div>
             <div className="p-4 text-center">
               <span className="text-xl font-bold text-[#6e3419]">Veg Pickles</span>
@@ -117,7 +117,7 @@ const HomePage = () => {
           {/* Non-Veg Pickles */}
           <Link href="/shop?category=Non-Veg%20Pickles" className="group block rounded-2xl shadow-xl bg-white hover:shadow-2xl transition overflow-hidden border-2 border-[#e0b07a]/30 hover:border-[#e0b07a]">
             <div className="relative w-full h-48">
-              <Image src="/product images/chicken-pickle/classicChickenPickle.webp" alt="Non-Veg Pickles" fill className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300" />
+              <Image src="/product-images/chicken-pickle/classicChickenPickle.webp" alt="Non-Veg Pickles" fill className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300" />
             </div>
             <div className="p-4 text-center">
               <span className="text-xl font-bold text-[#6e3419]">Non-Veg Pickles</span>
@@ -126,7 +126,7 @@ const HomePage = () => {
           {/* Powders */}
           <Link href="/shop?category=Powders" className="group block rounded-2xl shadow-xl bg-white hover:shadow-2xl transition overflow-hidden border-2 border-[#e0b07a]/30 hover:border-[#e0b07a]">
             <div className="relative w-full h-48">
-              <Image src="/product images/powders/curry-leaves-powder.jpg" alt="Powders" fill className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300" />
+              <Image src="/product-images/powders/curry-leaves-powder.jpg" alt="Powders" fill className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300" />
             </div>
             <div className="p-4 text-center">
               <span className="text-xl font-bold text-[#6e3419]">Powders</span>
@@ -135,7 +135,7 @@ const HomePage = () => {
           {/* Premix */}
           <Link href="/shop?category=Premix" className="group block rounded-2xl shadow-xl bg-white hover:shadow-2xl transition overflow-hidden border-2 border-[#e0b07a]/30 hover:border-[#e0b07a]">
             <div className="relative w-full h-48">
-              <Image src="/product images/pre-mix/SAMBAR-MIX-POWDER.webp" alt="Premix" fill className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300" />
+              <Image src="/product-images/pre-mix/SAMBAR-MIX-POWDER.webp" alt="Premix" fill className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300" />
             </div>
             <div className="p-4 text-center">
               <span className="text-xl font-bold text-[#6e3419]">Premix</span>

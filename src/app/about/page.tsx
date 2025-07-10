@@ -21,7 +21,7 @@ export default function AboutUsPage() {
       >
         <div className="md:w-1/2 w-full h-72 md:h-[400px] relative  ">
           <Image
-            src="/product images/allImages/about-hero.png"
+            src="/product-images/allImages/about-hero.png"
             alt="Peddamma Story Hero"
             fill
             className="object-cover object-center ml-2 rounded-lg"
