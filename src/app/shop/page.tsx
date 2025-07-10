@@ -5,8 +5,17 @@ import ProductGrid from "@/components/ProductGrid";
 import { categories, products, subCategories } from "@/data/dummyData";
 import FilterDropdown from "@/components/FilterDropdown";
 import { useSearchParams } from "next/navigation";
+import { Suspense } from "react";
 
-export default function ShopPage() {
+export default function ShopPageWrapper() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <ShopPage />
+    </Suspense>
+  );
+}
+
+function ShopPage() {
   const searchParams = useSearchParams();
   const initialCategory = searchParams.get("category") || "All";
   const [selectedCategory, setSelectedCategory] = useState(initialCategory);
